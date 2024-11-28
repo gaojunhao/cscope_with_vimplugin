@@ -30,6 +30,10 @@ if has("cscope")
 
     """"""""""""" Standard cscope/vim boilerplate
 
+    " indicate tab and blank
+    set list
+    set listchars=tab:>-,trail:-
+
     " use both cscope and ctag for 'ctrl-]', ':ta', and 'vim -t'
     set cscopetag
     set nocscopeverbose
